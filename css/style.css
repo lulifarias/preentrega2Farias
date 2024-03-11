@@ -479,11 +479,15 @@ footer a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
+    
+    *{
+        margin: 0;
+    }
     
     header .list-item a {
         font-size: 12px;
-        font-weight: 1100px;
+        font-weight: 100px;
         padding: 8px 4px;
     }
 
@@ -494,8 +498,10 @@ footer a {
         justify-content: center;
         align-items: center;
         padding: 0;
-        margin: 0px;
+        margin: 10%;
+        background-color: ;
     }
+
     #hero h1 {
         font-size: 60px;
         margin: 40px;
